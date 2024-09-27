@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+figure {
+    margin: 15px;
+    border: 2px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    transition: border-color 0.3s ease;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+figcaption {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+figure:focus, figure:hover {
+    border-color: #007bff;
+    outline: none;
+}
